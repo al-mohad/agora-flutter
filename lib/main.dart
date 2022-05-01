@@ -12,7 +12,7 @@ class AgoraApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Agora App',
-      theme: ThemeData.dark(),
+      theme: ThemeData.dark().copyWith(primaryColor: Colors.purple),
       home: const IndexPage(),
     );
   }
